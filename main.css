@@ -1,15 +1,265 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
 .container {
-    border: 1px solid;
-    height: 500px;
+    border: 1px solid black;
 }
+
 
 .header {
-    margin: 0px;   
-    padding: 0px; 
+    margin: 0px;
+    padding: 0px;
 }
 
+.headerlinestrip {
+    background-color: #000080;
+    min-height: 6px;
+}
+
+.nav-bar .nbar {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#046307;      
+}
+
+.nav-bar .nbar li {
+        float: left;      
+}
+
+
+.nav-bar .nbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.nav-bar .nbar li a:hover {
+    background-color:#000080;
+    ;
+  }
+
+
+.body-container {
+      margin-left:10px;
+      margin-right:10px;
+      margin-bottom:10px;
+  }
+
+
+.body-container .bc-head-title {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: large;
+}
+
+.body-container p {
+    text-align: justify;
+}
+
+ul.bc-policy-logo {
+    list-style-image:url("policy.jpg");
+    margin-left:20px;
+}
+  
+
 .form-container {
-    float: right;
-    margin-top: 20px;
+    float: right;    
+    margin-top:-80px;
     margin-right: 50px;
 }
+
+.form-container form > input , label , button  {
+    display: block !important;
+    margin-top:5px;
+    
+}
+
+
+.p1 {
+    text-align: center;
+    font-size: 25px;
+    margin-left:20px;
+
+}
+.p2 {
+    font-size: 25px;
+    margin-left:20px;
+
+
+}
+
+.card {
+    width:250px;
+    background-color: #F3F6F7;
+    border: 1px solid #bdb9b9;
+    display: inline-block;
+    vertical-align:top;   
+    border-radius: 5px;     
+    margin: 12px;
+  }
+.card p {
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom: 5px;
+  }
+
+.card img {
+    width: 100%;
+    height: 150px;    
+}  
+
+.men {
+    border: 2px solid #046307;
+    position: relative;
+    width: 300px;
+    margin-left: -35px;
+}
+.men p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    color: #000080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    font-size: medium;
+
+}
+
+
+
+.men p > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+    
+}
+.men p:hover {
+    opacity: 1;
+
+}
+
+.men p:hover > * {
+    transform: translateY(0);
+}
+
+.men img {
+    display: block;
+    width: 100%;  
+}  
+
+.men__description   {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+
+}
+
+
+
+
+.men1 {
+    border: 2px solid #046307;
+    position: relative;
+    width: 300px;
+    margin-left: 320px;
+    margin-top: -155px;
+}
+.men1 p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    color: #000080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    font-size: medium;
+
+}
+
+
+
+.men1 p > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+    
+}
+.men1 p:hover {
+    opacity: 1;
+
+}
+
+.men1 p:hover > * {
+    transform: translateY(0);
+}
+
+.men1 img {
+    display: block;
+    width: 100%;  
+    height: 150px;
+    
+}  
+
+.men1__description   {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+  
+}
+
+.card1 {
+    width:300px;
+    background-color: #F3F6F7;  
+    border: 1px solid #bdb9b9;
+    display: inline-block;
+    vertical-align:top;   
+    border-radius: 5px;     
+    margin: 12px;
+    margin-top: 10px;
+    margin-right: -300px;
+}
+
+.card1 img {
+    width: 100%;
+    height: 150px;
+}
+
+.card2 {
+    width:300px;
+    background-color: #F3F6F7;
+    border: 1px solid #bdb9b9;
+    display: inline-block;
+    vertical-align:top;   
+    border-radius: 5px;     
+    margin: 12px;
+    margin-left: 310px;
+}
+.card2 img {
+ width: 100%;
+    height: 150px;   
+
+}
+.card2 p {
+    padding-left:5px;
+    padding-right:50px;
+    padding-bottom: 5px;
+
+}
+
